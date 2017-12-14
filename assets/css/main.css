@@ -1,0 +1,191 @@
+
+
+
+
+
+.container{
+padding-left: 22em;
+padding-top:3em;
+padding-right:
+}
+#smartphone{
+background-color: silver;
+width: 550px;
+height: 900px;
+border: 1px solid grey;
+border-radius: 30px;
+padding: 3.5em;
+}
+#circleSup{
+
+font-size: 2em;
+padding-left: 8em;
+padding-bottom: -1em;
+padding-top: -1em;
+
+}
+#screen{
+background-color: black;
+
+width: 545px;
+height: 760px;
+border: 1px solid black;
+padding-bottom: -10em;
+
+}
+
+h1{
+	color: orange;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5.5em;
+	padding-left: 2.8em;
+}
+
+#circleInf{
+
+font-size: 5em;
+padding-left: 3em;
+padding-bottom: -1em;
+padding-top: 0.5em;
+
+}
+/* ESTA ES LA SEGUNDA SECCION, DONDE SE MUESTRA EL MENU */
+
+h2{
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	
+}
+
+
+
+iframe{
+	
+	padding-left: 4.6em;
+	
+}
+
+h4{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+label{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-left: 2em;
+}
+img{
+	
+	padding: 0.5em;
+}
+ text{
+ 	padding-bottom: -1em;
+ 	color: yellow;
+ 	
+ }
+i{
+	color: white;
+}
+
+input{
+	text-align: center;
+}
+.input-group{
+	padding-left: 10em;
+	
+}
+
+
+.chin{
+	width: 100px;
+	height: 100px;
+	top: 0.5em;
+    
+}
+.menu{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    
+}
+p{
+	color:yellow;
+}
+
+.mexicana-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+
+.peruana-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+
+.pizza-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+.pastas-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+
+.rapida-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+
+.casera-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}
+
+.vegetariana-overlay{
+	width: 100px;
+	height: 100px;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: justify;   
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+}

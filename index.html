@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- este lo hace responsive-->
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/materialize/css/materialize.min.css">  <!-- ESTE ENLACE APLICA LOS ESTILOS DE CSS DE MATERIALIZE-->
+  <title>FOODMAP</title>
+  <link rel="stylesheet" href="assets/css/main.css">   <!-- ESTE ENLACE ES PARA LOS ESTILOS DE MI CSS-->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   <!-- ESTE ENLACE ES PARA LOS ICONOS DE MATERIALIZE -->
+<script type="text/javascript">  
+	 $(function(){
+     setTimeout(function() {
+     $('#splash').fadeOut(500);
+   }, 2000);
+});
+	</script>
+ 
+</head>
+
+<!--    -1. F O O D M A P
+
+Crea una web-app que a través de un input pueda filtrar los restaurantes que se encuentran cerca de ti (Tú decides la estructura que tendrán tus datos, puedes crear una lista de restaurantes en un arreglo, en un objeto, de manera individual. El diseño es totalmente libre).
+
+Flujo de la aplicación.
+
+Vista splash con duración de 2 a 5 segundos que redirecciona a tu vista principal. -->
+
+<body>
+
+	<div id="splash"><center><img src="someImage.jpg" /></center></div>
+	<div class="container"> 
+		<div class="row">
+			<div class="col s6" id="smartphone">
+			     <i class="material-icons" id="circleSup">panorama_fish_eye</i>
+			     <div class="row">
+			     	<div class=" col s5" id="screen">
+			     		<h1>FOODMAP</h1>
+			     	</div>
+			     </div>
+			     <i class="material-icons" id="circleInf">panorama_fish_eye</i>
+			</div>
+		</div>        
+    </div>
+
+	<!-- 2° En la vista principal se muestran todos los restaurantes "cerca de ti" junto con el input para filtrar tu elección (Los criterios de filtrado son decisión tuya, puede ser por tipo de comida, costos, orden alfabético, etc.).  -->
+
+
+	<div class="container"> 
+		<div class="row">
+			<div class="col s6" id="smartphone">
+			     <i class="material-icons" id="circleSup">panorama_fish_eye</i>
+			     <div class="row">
+			     	<div class=" col s5" id="screen">
+			     		<h2>FOODMAP</h2>
+						<!-- <i class="material-icons" id="cuadrado">check_box_outline_blank</i> -->
+						<hr>
+						<!-- <i class="material-icons" id="cuadrado">check_box_outline_blank</i> -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425998.1490412417!2d-70.91002990074267!3d-33.47247273943987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago+de+Chile%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1513270351209" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+						<h4>COMIDA CERCA DE TI</h4>
+
+				<div class="input-group">
+                	         
+                	
+                	<input id="foodlookin" type="text" class="form-control" placeholder="¿Qué es lo que buscas?" aria-describedby="buscar"> <button type="submit" class="btn btn-default"><i class="material-icons">search</i></button>
+            	</div>
+
+
+				<nav class="row">									
+					<img class="china" src="assets/img/china.png">
+    				
+					<img class="mexic" src="assets/img/tacos.jpg">
+				
+					<img class="peru" src="assets/img/peruana.jpg">
+
+					<img class="pizza" src="assets/img/pizza.jpg">
+				 	
+
+				</nav>
+				<nav class="row">
+					<img class="pastas" src="assets/img/pastas.jpg">						
+
+					<img class="rapida" src="assets/img/rapida.jpg">			
+						
+					<img class="casera" src="assets/img/casera.jpg">						
+
+					<img class="veget" src="assets/img/vegetariana.jpg">
+					
+						
+				</nav>
+
+			     	</div>
+			     </div>
+			     </div>
+			 </div>
+			     <i class="material-icons" id="circleInf">panorama_fish_eye</i>
+			</div>
+		</div>        
+    </div>
+
+	<!-- 3° En la vista principal se muestran todos los restaurantes "cerca de ti" junto con el input para filtrar tu elección (Los criterios de filtrado son decisión tuya, puede ser por tipo de comida, costos, orden alfabético, etc.).  -->
+
+
+
+
+
+	<!-- 4° Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos restaurantes que cumplan con la condición.  -->
+	
+
+
+	<!--  5° Agrega un evento mouseover a las imágenes, lo que pase con el efecto es decisión tuya (Cambio de tamaño, muestra de texto, cambio de imagen, información, etc). -->
+
+
+	<!-- 6° Al seleccionar alguno de los restaurantes, deberá mostrarse la información de este a través de un modal. -->
+
+
+	<!-- 7° Una vez cerrado el modal debe volver a la vista principal.   (Listo)  --> 
+
+	<!-- NO OLVIDES SUBIR TU REPOSITORIO Y ENVIAR EL URL --> 
+
+  
+
+	
+
+    
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/app.js"></script>
+  
+
+</body>
+</html>
+
+
+
+
